@@ -119,7 +119,7 @@ public class RoboGdxActivity extends AndroidApplication implements RoboContext {
         eventManager.fire(new OnActivityResultEvent(requestCode, resultCode, data));
     }
 
-    @Override
+    
     public Map<Key<?>, Object> getScopedObjectMap() {
         return scopedObjects;
     }
